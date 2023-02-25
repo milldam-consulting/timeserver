@@ -1,2 +1,2 @@
-# timeserver
+# Timeserver
 Simple time service.
