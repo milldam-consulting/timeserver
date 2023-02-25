@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: timeserver
-          image: milldam/timeserver:1.0
+          image: milldam/timeserver:1.1
           ports:
             - containerPort: 3000
 ---

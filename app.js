@@ -7,8 +7,9 @@ const server = http.createServer((request, response) => {
     const now = new Date()
     response.setHeader('Content-Type', 'application/json');
     response.end(JSON.stringify({
-        'version': '1.0',
+        'version': '1.1',
         'utc': now.toUTCString(),
+        'iso': now.toISOString(),
     }));
 })
 
